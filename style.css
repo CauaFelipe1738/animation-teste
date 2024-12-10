@@ -39,8 +39,10 @@ ul li{
 
 .left, .right{
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .cont img{
-    width: 40vw;
+    width: 30vw;
 }
