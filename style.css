@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 2rem;
+}
+
+.logo{
+    width: 300px;
+}
+
+ul{
+    display: flex;
+    align-items: center;
+}
+
+ul li{
+    list-style: none;
+    margin: 0 2rem;
+}
+
+.hero{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    padding-top: 2rem;
+    background-image: url(./img/pet-banner.webp);
+    height: 20vh;
+    width: 100vw;
+    background-repeat: no-repeat;
+}
+
+.left, .right{
+    display: flex;
+}
+
+.cont img{
+    width: 40vw;
+}
